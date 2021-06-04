@@ -1,0 +1,215 @@
+/*COLOR SCHEME
+ white -- #F1F1F1
+ off-white -- #e7e7de
+petrol (lighter): #1fad9f 
+petrol (darker) -- #025955
+green -- #158467
+hunter green -- #065446
+maroon - #ab1212
+mustard yellow -#fed049
+dark grey -- #323232
+almost black - #212529
+ocean -- #00587a
+
+gradient
+  background: linear-gradient(
+    65.5deg,
+    rgb(23, 205, 205) -15.1%,
+    rgb(23, 25, 95) 71.5%
+  );
+*/
+
+body {
+  background: linear-gradient(
+    65.5deg,
+    rgb(23, 205, 205) -15.1%,
+    rgb(23, 25, 95) 71.5%
+  );
+  background: #212529;
+  height: 100%;
+  margin: 0;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  font-family: "Calistoga", cursive;
+  font-family: "Montserrat", sans-serif;
+  font-family: "Open Sans", sans-serif;
+  font-family: "Raleway", sans-serif;
+  font-family: "Roboto", sans-serif;
+  font-family: "Voces", cursive;
+}
+
+header {
+  padding: 20px;
+}
+
+h1 {
+  color: #f1f1f1;
+  font-family: "Calistoga";
+  font-size: 100px;
+  font-weight: lighter;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  text-align: center;
+  text-decoration: none;
+}
+h2 {
+  color: #f1f1f1;
+  font-family: "Roboto";
+  text-align: center;
+}
+
+h3 {
+  text-align: center;
+}
+a {
+  color: #f1f1f1;
+  font-size: 20px;
+  text-decoration: none;
+}
+a:hover {
+  color: #f6c667;
+  font-size: 30px;
+  transition: ease-in-out 150ms;
+}
+
+footer {
+  margin-top: 100px;
+  text-align: center;
+}
+
+iframe {
+  display: block;
+  margin: 0 auto;
+  margin-top: 80px;
+  border: solid 2px black;
+}
+
+iframe:hover {
+  box-shadow: 10px 10px black;
+}
+
+p {
+  color: #d8ebe4;
+}
+
+.aboutMe {
+  display: inline;
+  padding: 20px;
+  list-style: none;
+  text-align: center;
+}
+
+.aboutText {
+  color: #f1f1f1;
+  text-align: center;
+}
+
+.acrossLi {
+  display: block;
+  color: white;
+  margin: 0 auto;
+  padding: 35px;
+}
+.banner {
+  text-decoration: none;
+}
+
+.card-img-top {
+  display: block;
+  margin: 0 auto;
+  width: 250px;
+}
+
+.card-title {
+  text-align: center;
+}
+.colorHunterGreen {
+  color: #065446;
+}
+
+.colorMaroon {
+  color: #810f01;
+}
+.colorMustard {
+  color: #fed049;
+}
+
+.colorOcean {
+  color: #00587a;
+}
+
+.colorOffWhite {
+  color: #e7e7de;
+}
+.colorPetrol-light {
+  color: #1fad9f;
+}
+.colorPetrol-dark {
+  color: #025955;
+}
+
+.colorWhite {
+  color: #f1f1f1;
+}
+
+.contacts {
+  text-decoration: none;
+}
+
+.contactImage {
+  display: block;
+  margin: 0 auto;
+  width: 350px;
+}
+
+.sections {
+  color: #f1f1f1;
+  text-align: center;
+}
+.job-item {
+  padding: 10px;
+}
+.jobTitle {
+  color: #f1f1f1;
+  font-size: 20px;
+  list-style: none;
+  padding: 2px;
+}
+.jobTitle:hover {
+  color: #f6c667;
+  font-size: 50px;
+  cursor: pointer;
+  list-style: none;
+}
+
+.jobLocation {
+  color: #f1f1f1;
+  list-style: none;
+  margin-left: 10px;
+}
+.jobDates {
+  color: #f1f1f1;
+  font-family: "Roboto";
+  list-style: none;
+  margin-left: 10px;
+}
+.jobDetails {
+  color: #f1f1f1;
+  font-family: "Roboto";
+  font-size: 15px;
+  list-style: none;
+  margin-left: 15px;
+}
+
+.navbar {
+  font-family: "Voces";
+}
+
+.submitButton {
+  font-size: smaller;
+}
+
+.spotifyPlayer {
+  display: block;
+  margin: 0 auto;
+}
