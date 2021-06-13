@@ -58,6 +58,11 @@ h2 {
   text-align: center;
 }
 
+h6 {
+  color: whitesmoke;
+  text-align: center;
+}
+
 h3 {
   text-align: center;
 }
@@ -95,7 +100,9 @@ p {
 /*HEADER banner*/
 
 .header {
+  display: flex;
   margin-top: 2rem;
+  max-width: 80%;
 }
 
 .headerGraphic {
@@ -139,7 +146,7 @@ p {
 .card-img-top {
   display: block;
   margin: 0 auto;
-  width: 250px;
+  max-width: 100%;
 }
 
 .card-title {
