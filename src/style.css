@@ -47,7 +47,7 @@ h1 {
   font-family: "Calistoga";
   font-size: 100px;
   font-weight: lighter;
-  margin-top: 6rem;
+  margin-top: 4rem;
   margin-bottom: 2rem;
   text-align: center;
   text-decoration: none;
@@ -92,6 +92,31 @@ p {
   color: #d8ebe4;
 }
 
+/*HEADER banner*/
+
+.header {
+  margin-top: 2rem;
+}
+
+.headerGraphic {
+  color: #f1f1f1;
+  font-family: "Calistoga";
+  font-size: 10rem;
+  font-weight: lighter;
+  margin-top: 1rem;
+  margin-bottom: 0;
+  text-align: center;
+  text-decoration: none;
+}
+.headerSkills {
+  color: #f1f1f1;
+  font-family: "Roboto";
+  font-size: 3rem;
+  margin-top: 0;
+  text-align: center;
+  text-decoration: none;
+}
+
 .aboutMe {
   display: inline;
   padding: 20px;
@@ -109,9 +134,6 @@ p {
   color: white;
   margin: 0 auto;
   padding: 35px;
-}
-.banner {
-  text-decoration: none;
 }
 
 .card-img-top {
