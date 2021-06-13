@@ -231,9 +231,10 @@ p {
 }
 
 /*PORTFOLIO*/
-.colPortfolio {
-  display: flex;
 
+.portfolioColumn {
+  border: solid whitesmoke 1px;
+  color: whitesmoke;
   text-align: center;
 }
 .portfolio {
