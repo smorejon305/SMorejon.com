@@ -233,6 +233,8 @@ p {
 /*PORTFOLIO*/
 
 .portfolio {
+  font-family: "Roboto", sans-serif;
+  font-size: 2rem;
   padding: 1rem;
   max-width: 90%;
 }
