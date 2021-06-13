@@ -236,19 +236,23 @@ p {
   font-family: "Roboto", sans-serif;
   font-size: 2rem;
   padding: 1rem;
-  max-width: 90%;
+  max-width: 80%;
 }
 
 .portfolioColumn {
   border: solid #fed049 1px;
   color: whitesmoke;
   padding: 5rem;
-  width: 100%;
+  width: 30%;
   text-align: center;
 }
 
 .portfolioColumn:hover {
   font-style: strong;
+}
+
+.portfolioIMG {
+  max-width: 100%;
 }
 
 .submitButton {
