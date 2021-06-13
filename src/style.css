@@ -232,15 +232,21 @@ p {
 
 /*PORTFOLIO*/
 
+.portfolio {
+  padding: 1rem;
+  max-width: 90%;
+}
+
 .portfolioColumn {
-  border: solid whitesmoke 1px;
+  border: solid #fed049 1px;
   color: whitesmoke;
+  padding: 5rem;
+  width: 100%;
   text-align: center;
 }
-.portfolio {
-  border: 1px solid whitsmoke;
-  color: whitesmoke;
-  display: flex;
+
+.portfolioColumn:hover {
+  font-style: strong;
 }
 
 .submitButton {
