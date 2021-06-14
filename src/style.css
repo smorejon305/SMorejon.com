@@ -38,10 +38,6 @@ body {
   font-family: "Voces", cursive;
 }
 
-header {
-  padding: 20px;
-}
-
 h1 {
   color: #f1f1f1;
   font-family: "Calistoga";
@@ -240,6 +236,13 @@ p {
 
 /*PORTFOLIO*/
 
+.sectionHeader {
+  color: #f1f1f1;
+  font-family: "Voces", sans-serif;
+  font-size: 2.5rem;
+  padding: 2rem;
+  text-decoration: underline;
+}
 .card-title {
   color: whitesmoke;
   text-align: center;
@@ -247,6 +250,10 @@ p {
 .card-text {
   color: whitesmoke;
   text-align: center;
+}
+
+.card:hover {
+  border: rgb(23, 205, 205) 10rem;
 }
 
 .submitButton {
