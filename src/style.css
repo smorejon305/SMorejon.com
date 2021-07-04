@@ -232,7 +232,7 @@ p {
 }
 
 .navbar {
-  font-family: "Voces";
+  font-family: var(--ff-primary);
 }
 
 /*PORTFOLIO*/
