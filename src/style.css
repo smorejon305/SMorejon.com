@@ -239,6 +239,7 @@ p {
 
 .portfolioCard {
   border-radius: 20px;
+  margin: 1em;
 }
 
 .portfolioCard:hover {
