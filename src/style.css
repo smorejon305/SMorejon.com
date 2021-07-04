@@ -1,46 +1,44 @@
-/*COLOR SCHEME
- white -- #F1F1F1
- off-white -- #e7e7de
-petrol (lighter): #1fad9f 
-petrol (darker) -- #025955
-green -- #158467
-hunter green -- #065446
-maroon - #ab1212
-mustard yellow -#fed049
-dark grey -- #323232
-almost black - #212529
-ocean -- #00587a
+:root {
+--clr-neutral-100: #f1f1f1;
+--clr-neutral-200: #e7e7de; 
+--clr-neutral-700: #323232; 
+--clr-neutral-800: #212529; 
+--clr-neutral-900: #000000; 
 
-gradient
-  background: linear-gradient(
-    65.5deg,
-    rgb(23, 205, 205) -15.1%,
-    rgb(23, 25, 95) 71.5%
-  );
-*/
+--clr-maroon-600: #810f01;
+--clr-mustard-600: #fed049;
+
+--clr-petrol-200: #1fad9f;
+--clr-petrol-600: #00587a;
+--clr-petrol-800: #025955;
+
+--clr-hunterGreen-600: #065446;
+
+--ff-primary: "Roboto", sans-serif;
+/* --ff-primary: "Voces", cursive;  */
+--ff-accent: "Calistoga", cursive;
+
+ /* 
+  font-family: "Montserrat", sans-serif;
+  font-family: "Open Sans", sans-serif;
+  font-family: "Raleway", sans-serif;
+  */
+
+}
+
 
 body {
-  background: linear-gradient(
-    65.5deg,
-    rgb(23, 205, 205) -15.1%,
-    rgb(23, 25, 95) 71.5%
-  );
-  background: #212529;
+  background: var(--clr-neutral-800); 
   height: 100%;
   margin: 0;
   background-repeat: no-repeat;
   background-attachment: fixed;
-  font-family: "Calistoga", cursive;
-  font-family: "Montserrat", sans-serif;
-  font-family: "Open Sans", sans-serif;
-  font-family: "Raleway", sans-serif;
-  font-family: "Roboto", sans-serif;
-  font-family: "Voces", cursive;
+ 
 }
 
 h1 {
-  color: #f1f1f1;
-  font-family: "Calistoga";
+  color: var(--clr-neutral-200); 
+  font-family: var(--ff-accent); 
   font-size: 100px;
   font-weight: lighter;
   margin-top: 4rem;
@@ -104,22 +102,55 @@ p {
 
 .headerGraphic {
   color: #f1f1f1;
-  font-family: "Calistoga";
-  font-size: 10rem;
+  font-family: var(--ff-accent); 
+  font-size:4em;
   font-weight: lighter;
   margin-top: 1rem;
   margin-bottom: 0;
   text-align: center;
   text-decoration: none;
 }
+
+.brainIcon {
+  color: var(--clr-mustard-600); 
+}
+
+.plusIcon {
+color: var(--clr-petrol-200); 
+}
+
+.heartIcon {
+  color: var(--clr-maroon-600); 
+}
 .headerSkills {
-  color: #f1f1f1;
+  color: var(--clr-neutral-100); 
   font-family: "Roboto";
-  font-size: 3rem;
+  font-size: 2em;
   margin-top: 0;
   text-align: center;
   text-decoration: none;
 }
+
+.headerName {
+  color: var(--clr-petrol-200); 
+  font-size: 2em; 
+}
+
+
+@media (min-width:600px) {
+  .headerGraphic {
+  font-size: 10em;
+  }
+  .headerSkills {
+    font-size: 3em; 
+  }
+
+  .headerName {
+    font-size: 6em; 
+  }
+  }
+
+
 
 .aboutMe {
   display: inline;
@@ -148,35 +179,7 @@ p {
 
 .card-title {
   text-align: center;
-}
-.colorHunterGreen {
-  color: #065446;
-}
 
-.colorMaroon {
-  color: #810f01;
-}
-.colorMustard {
-  color: #fed049;
-}
-
-.colorOcean {
-  color: #00587a;
-}
-
-.colorOffWhite {
-  color: #e7e7de;
-}
-.colorPetrol-light {
-  color: #1fad9f;
-}
-.colorPetrol-dark {
-  color: #025955;
-}
-
-.colorWhite {
-  color: #f1f1f1;
-}
 
 .contacts {
   text-decoration: none;
