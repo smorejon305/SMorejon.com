@@ -14,14 +14,14 @@
 
   --clr-hunterGreen-600: #065446;
 
-  --ff-primary: "Roboto", sans-serif;
-  /* --ff-primary: "Voces", cursive;  */
+  /* --ff-primary: "Roboto", sans-serif; */
+  --ff-primary: "Voces", sans-serif;
   --ff-accent: "Calistoga", cursive;
 
   /* 
-  font-family: "Montserrat", sans-serif;
-  font-family: "Open Sans", sans-serif;
-  font-family: "Raleway", sans-serif;
+ --ff-primary: "Montserrat", sans-serif;
+  --ff-primary: "Open Sans", sans-serif;
+  --ff-primary: "Raleway", sans-serif;
   */
 }
 
@@ -33,6 +33,9 @@ body {
   background-attachment: fixed;
 }
 
+hr {
+  color: var(--clr-neutral-100);
+}
 h1 {
   color: var(--clr-neutral-200);
   font-family: var(--ff-accent);
@@ -48,12 +51,19 @@ h2 {
   font-family: "Roboto";
   text-align: center;
 }
+
 .sectionHeader {
   color: #f1f1f1;
   font-family: var(--ff-primary);
-  font-size: 2.5em;
+  font-size: 2em;
   padding: 2em;
   text-decoration: underline;
+}
+
+@media (min-width: 600px) {
+  .sectionHeader {
+    font-size: 2.5em;
+  }
 }
 
 h6 {
@@ -73,11 +83,6 @@ a:hover {
   color: #f6c667;
   font-size: 30px;
   transition: ease-in-out 150ms;
-}
-
-footer {
-  margin-top: 100px;
-  text-align: center;
 }
 
 iframe {
@@ -153,16 +158,8 @@ p {
   }
 }
 
-.aboutMe {
-  display: inline;
-  padding: 20px;
-  list-style: none;
-  text-align: center;
-}
-
-.aboutText {
-  color: #f1f1f1;
-  text-align: center;
+.aboutMeText {
+  color: var(--clr-neutral-200);
 }
 
 .acrossLi {
@@ -273,7 +270,28 @@ p {
   font-size: smaller;
 }
 
-.spotifyPlayer {
+footer {
+  margin-top: 100px;
+  text-align: center;
+}
+
+.footerLink {
   display: block;
   margin: 0 auto;
+}
+
+.yellow {
+  color: var(--clr-mustard-600);
+}
+
+.yellow:hover {
+  transform: rotate(360deg);
+}
+
+.turquoise {
+  color: var(--clr-petrol-200);
+}
+
+.maroon {
+  color: var(--clr-maroon-600);
 }
