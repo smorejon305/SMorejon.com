@@ -1,44 +1,41 @@
 :root {
---clr-neutral-100: #f1f1f1;
---clr-neutral-200: #e7e7de; 
---clr-neutral-700: #323232; 
---clr-neutral-800: #212529; 
---clr-neutral-900: #000000; 
+  --clr-neutral-100: #f1f1f1;
+  --clr-neutral-200: #e7e7de;
+  --clr-neutral-700: #323232;
+  --clr-neutral-800: #212529;
+  --clr-neutral-900: #000000;
 
---clr-maroon-600: #810f01;
---clr-mustard-600: #fed049;
+  --clr-maroon-600: #810f01;
+  --clr-mustard-600: #fed049;
 
---clr-petrol-200: #1fad9f;
---clr-petrol-600: #00587a;
---clr-petrol-800: #025955;
+  --clr-petrol-200: #1fad9f;
+  --clr-petrol-600: #00587a;
+  --clr-petrol-800: #025955;
 
---clr-hunterGreen-600: #065446;
+  --clr-hunterGreen-600: #065446;
 
---ff-primary: "Roboto", sans-serif;
-/* --ff-primary: "Voces", cursive;  */
---ff-accent: "Calistoga", cursive;
+  --ff-primary: "Roboto", sans-serif;
+  /* --ff-primary: "Voces", cursive;  */
+  --ff-accent: "Calistoga", cursive;
 
- /* 
+  /* 
   font-family: "Montserrat", sans-serif;
   font-family: "Open Sans", sans-serif;
   font-family: "Raleway", sans-serif;
   */
-
 }
 
-
 body {
-  background: var(--clr-neutral-800); 
+  background: var(--clr-neutral-800);
   height: 100%;
   margin: 0;
   background-repeat: no-repeat;
   background-attachment: fixed;
- 
 }
 
 h1 {
-  color: var(--clr-neutral-200); 
-  font-family: var(--ff-accent); 
+  color: var(--clr-neutral-200);
+  font-family: var(--ff-accent);
   font-size: 100px;
   font-weight: lighter;
   margin-top: 4rem;
@@ -50,6 +47,13 @@ h2 {
   color: #f1f1f1;
   font-family: "Roboto";
   text-align: center;
+}
+.sectionHeader {
+  color: #f1f1f1;
+  font-family: var(--ff-primary);
+  font-size: 2.5em;
+  padding: 2em;
+  text-decoration: underline;
 }
 
 h6 {
@@ -102,8 +106,8 @@ p {
 
 .headerGraphic {
   color: #f1f1f1;
-  font-family: var(--ff-accent); 
-  font-size:4em;
+  font-family: var(--ff-accent);
+  font-size: 4em;
   font-weight: lighter;
   margin-top: 1rem;
   margin-bottom: 0;
@@ -112,18 +116,18 @@ p {
 }
 
 .brainIcon {
-  color: var(--clr-mustard-600); 
+  color: var(--clr-mustard-600);
 }
 
 .plusIcon {
-color: var(--clr-petrol-200); 
+  color: var(--clr-petrol-200);
 }
 
 .heartIcon {
-  color: var(--clr-maroon-600); 
+  color: var(--clr-maroon-600);
 }
 .headerSkills {
-  color: var(--clr-neutral-100); 
+  color: var(--clr-neutral-100);
   font-family: "Roboto";
   font-size: 2em;
   margin-top: 0;
@@ -132,25 +136,22 @@ color: var(--clr-petrol-200);
 }
 
 .headerName {
-  color: var(--clr-petrol-200); 
-  font-size: 2em; 
+  color: var(--clr-petrol-200);
+  font-size: 2em;
 }
 
-
-@media (min-width:600px) {
+@media (min-width: 600px) {
   .headerGraphic {
-  font-size: 10em;
+    font-size: 10em;
   }
   .headerSkills {
-    font-size: 3em; 
+    font-size: 3em;
   }
 
   .headerName {
-    font-size: 6em; 
+    font-size: 6em;
   }
-  }
-
-
+}
 
 .aboutMe {
   display: inline;
@@ -179,7 +180,7 @@ color: var(--clr-petrol-200);
 
 .card-title {
   text-align: center;
-
+}
 
 .contacts {
   text-decoration: none;
@@ -239,23 +240,33 @@ color: var(--clr-petrol-200);
 
 /*PORTFOLIO*/
 
-.sectionHeader {
-  color: #f1f1f1;
-  font-family: "Voces", sans-serif;
-  font-size: 2.5rem;
-  padding: 2rem;
-  text-decoration: underline;
+.portfolioCard {
+  border-radius: 20px;
 }
+
+.portfolioCard:hover {
+  box-shadow: 0px 10px 13px -7px #000000, 5px 5px 15px 5px rgba(0, 0, 0, 0);
+  transform: scale(1.05);
+}
+
 .card-title {
   color: whitesmoke;
   text-align: center;
 }
-.card-text {
-  color: whitesmoke;
-  text-align: center;
+
+.portfolioIMG {
+  border-radius: 20px;
 }
 
-.card:hover {
+.portfolioLinks {
+  font-size: 0.8em;
+}
+
+.portfolioCard-text {
+  color: whitesmoke;
+  font-family: var(--ff-primary);
+  font-size: 0.8em;
+  text-align: center;
 }
 
 .submitButton {
