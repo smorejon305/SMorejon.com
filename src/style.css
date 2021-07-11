@@ -14,15 +14,8 @@
 
   --clr-hunterGreen-600: #065446;
 
-  /* --ff-primary: "Roboto", sans-serif; */
   --ff-primary: "Voces", sans-serif;
   --ff-accent: "Calistoga", cursive;
-
-  /* 
- --ff-primary: "Montserrat", sans-serif;
-  --ff-primary: "Open Sans", sans-serif;
-  --ff-primary: "Raleway", sans-serif;
-  */
 }
 
 body {
@@ -47,17 +40,19 @@ h1 {
   text-decoration: none;
 }
 h2 {
-  color: #f1f1f1;
+  color: var(--clr-neutral-100);
   font-family: "Roboto";
   text-align: center;
 }
 
 .sectionHeader {
-  color: #f1f1f1;
+  color: var(--clr-neutral-100);
   font-family: var(--ff-primary);
   font-size: 2em;
   padding: 2em;
-  text-decoration: underline;
+  text-decoration: none;
+  text-shadow: 9px 12px 10px rgba(241, 241, 241, 0.4);
+  color: #f1f1f1;
 }
 
 @media (min-width: 600px) {
@@ -193,38 +188,38 @@ p {
   padding-top: 2rem;
 }
 .sections {
-  color: #f1f1f1;
+  color: var(--clr-neutral-100);
   text-align: center;
 }
 .job-item {
   padding: 10px;
 }
 .jobTitle {
-  color: #f1f1f1;
+  color: var(--clr-neutral-100);
   font-size: 20px;
   list-style: none;
   padding: 2px;
 }
 .jobTitle:hover {
-  color: #f6c667;
+  color: var(--clr-mustard-600);
   font-size: 50px;
   cursor: pointer;
   list-style: none;
 }
 
 .jobLocation {
-  color: #f1f1f1;
+  color: var(--clr-neutral-100);
   list-style: none;
   margin-left: 10px;
 }
 .jobDates {
-  color: #f1f1f1;
+  color: var(--clr-neutral-100);
   font-family: "Roboto";
   list-style: none;
   margin-left: 10px;
 }
 .jobDetails {
-  color: #f1f1f1;
+  color: var(--clr-neutral-100);
   font-family: "Roboto";
   font-size: 15px;
   list-style: none;
@@ -295,4 +290,8 @@ footer {
 
 .maroon {
   color: var(--clr-maroon-600);
+}
+
+.copyright {
+  font-size: 0.5em;
 }
