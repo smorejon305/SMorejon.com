@@ -7,6 +7,7 @@
 
   --clr-maroon-600: #810f01;
   --clr-mustard-600: #fed049;
+  --clr-mustard-800: #ffa43d;
 
   --clr-petrol-200: #1fad9f;
   --clr-petrol-600: #00587a;
@@ -116,7 +117,7 @@ p {
 }
 
 .brainIcon {
-  color: var(--clr-mustard-600);
+  color: var(--clr-mustard-800);
 }
 
 .plusIcon {
@@ -127,7 +128,7 @@ p {
   color: var(--clr-maroon-600);
 }
 .headerSkills {
-  color: var(--clr-neutral-100);
+  color: var(--clr-neutral-200);
   font-family: "Roboto";
   font-size: 2em;
   margin-top: 0;
