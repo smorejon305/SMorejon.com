@@ -15,8 +15,8 @@
 
   --clr-hunterGreen-600: #065446;
 
-  --ff-primary: "Voces", sans-serif;
-  --ff-accent: "Calistoga", cursive;
+  --ff-primary: "Montserrat", sans-serif;
+  --ff-accent: "Voces", sans-serif;
 }
 
 body {
@@ -25,6 +25,8 @@ body {
   margin: 0;
   background-repeat: no-repeat;
   background-attachment: fixed;
+  font-family: var(--ff-primary); 
+
 }
 
 hr {
@@ -32,7 +34,7 @@ hr {
 }
 h1 {
   color: var(--clr-neutral-200);
-  font-family: var(--ff-accent); 
+  font-family: var(--ff-primary); 
   font-size: 100px;
   font-weight: 100;
   margin-top: 4rem;
