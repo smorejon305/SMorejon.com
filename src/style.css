@@ -32,9 +32,9 @@ hr {
 }
 h1 {
   color: var(--clr-neutral-200);
-  font-family: var(--ff-accent);
+  font-family: var(--ff-accent); 
   font-size: 100px;
-  font-weight: lighter;
+  font-weight: 100;
   margin-top: 4rem;
   margin-bottom: 2rem;
   text-align: center;
