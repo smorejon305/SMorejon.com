@@ -41,7 +41,7 @@ h1 {
   margin-bottom: 2rem;
   text-align: center;
   text-decoration: none;
-background: -webkit-linear-gradient(var(--clr-petrol-200) 80%, var(--clr-mustard-600));
+background: -webkit-linear-gradient(var(--clr-petrol-200) 60%, var(--clr-mustard-600));
 -webkit-background-clip: text;
 -webkit-text-fill-color: transparent;
 
@@ -50,6 +50,10 @@ h2 {
   color: var(--clr-neutral-100);
   font-family: "Roboto";
   text-align: center;
+
+  background: -webkit-linear-gradient(var(--clr-petrol-200) 60% , var(--clr-neutral-200));
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
 }
 
 .sectionHeader {
@@ -58,8 +62,8 @@ h2 {
   font-size: 2em;
   padding: 2em;
   text-decoration: none;
-  text-shadow: 9px 12px 10px rgba(241, 241, 241, 0.4);
-  color: #f1f1f1;
+  
+
 }
 
 @media (min-width: 600px) {
