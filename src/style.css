@@ -35,12 +35,16 @@ hr {
 h1 {
   color: var(--clr-neutral-200);
   font-family: var(--ff-primary); 
-  font-size: 100px;
+  font-size: 5em;
   font-weight: 100;
   margin-top: 4rem;
   margin-bottom: 2rem;
   text-align: center;
   text-decoration: none;
+background: -webkit-linear-gradient(var(--clr-petrol-200) 80%, var(--clr-mustard-600));
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+
 }
 h2 {
   color: var(--clr-neutral-100);
