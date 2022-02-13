@@ -339,12 +339,22 @@ footer {
 .contactButton{
   display: block; 
   margin: 0 auto; 
-  background-color: var(--clr-petrol-200); 
-  /* opacity: 50%;  */
+  border: none; 
 border-radius: 20px; 
 padding: 1em; 
 margin-bottom: 2em; 
+background: rgb(31,173,159);
+background: linear-gradient(3deg, rgba(31,173,159,1) 60%, rgba(231,231,222,1) 100%);
 }
 
+.contactButton:hover{
+  background: rgb(31,173,159);
+background: linear-gradient(3deg, rgba(31,173,159,1) 60%, rgba(254,208,73,1) 100%);
+}
+
+.contactButton-link:hover{
+  color: white; 
+  text-decoration: underline; 
+}
 
 /* end of ABOUT ME */
