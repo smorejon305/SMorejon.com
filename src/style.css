@@ -103,7 +103,7 @@ a {
   color: #f1f1f1;
   font-size: 20px;
   text-decoration: none;}
-  
+
 a:hover{
   color: #f1f1f1;
 
@@ -333,6 +333,12 @@ footer {
  margin: 0 auto; 
  padding-top: 1em; 
 }
+
+@media (min-width: 600px) {
+  .aboutAvatar{
+    max-width: 65%; 
+  }
+  }
 
 .aboutText {
   color: var(--clr-neutral-200); 
