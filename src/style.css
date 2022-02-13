@@ -55,16 +55,21 @@ background: -webkit-linear-gradient(var(--clr-petrol-200) 60%, var(--clr-mustard
 
 /*  */
 
+hr {
+  color: whitesmoke; 
 }
-h2 {
-  color: var(--clr-neutral-100);
-  font-family: "Roboto";
-  text-align: center;
+.sectionTitle-h2 {
+font-weight: 100; 
+  font-family: var(--ff-primary); 
+  text-align: left;
+  color: var(--clr-neutral-200); 
+  margin: 2em; 
+  /* background: -webkit-linear-gradient(var(--clr-petrol-200) 60%, var(--clr-mustard-600));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent; */
+}
 
-  background: -webkit-linear-gradient(var(--clr-petrol-200) 60% , var(--clr-neutral-200));
--webkit-background-clip: text;
--webkit-text-fill-color: transparent;
-}
+
 
 .sectionHeader {
   color: var(--clr-neutral-100);
@@ -115,6 +120,22 @@ iframe:hover {
 p {
   color: #d8ebe4;
 }
+
+/* navBar  */
+
+.navBar-list {
+  display: flex; 
+ 
+}
+
+.navBar-item{
+  font-size: .5em; 
+  padding: 1em; 
+  min-width: fit-content;
+}
+
+/* end of navBar */
+
 
 /*HEADER banner*/
 
@@ -212,50 +233,15 @@ p {
   color: var(--clr-neutral-100);
   text-align: center;
 }
-.job-item {
-  padding: 10px;
-}
-.jobTitle {
-  color: var(--clr-neutral-100);
-  font-size: 20px;
-  list-style: none;
-  padding: 2px;
-}
-.jobTitle:hover {
-  color: var(--clr-mustard-600);
-  font-size: 50px;
-  cursor: pointer;
-  list-style: none;
-}
 
-.jobLocation {
-  color: var(--clr-neutral-100);
-  list-style: none;
-  margin-left: 10px;
-}
-.jobDates {
-  color: var(--clr-neutral-100);
-  font-family: "Roboto";
-  list-style: none;
-  margin-left: 10px;
-}
-.jobDetails {
-  color: var(--clr-neutral-100);
-  font-family: "Roboto";
-  font-size: 15px;
-  list-style: none;
-  margin-left: 15px;
-}
 
-.navbar {
-  font-family: var(--ff-primary);
-}
 
 /*PORTFOLIO*/
 
 .portfolioCard {
   border-radius: 20px;
   margin: 1em;
+  
 }
 
 .portfolioCard:hover {
