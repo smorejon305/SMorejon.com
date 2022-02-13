@@ -102,12 +102,10 @@ h3 {
 a {
   color: #f1f1f1;
   font-size: 20px;
-  text-decoration: none;
-}
-a:hover {
-  color: #f6c667;
-  font-size: 30px;
-  transition: ease-in-out 150ms;
+  text-decoration: none;}
+a:hover{
+  color: #f1f1f1;
+
 }
 
 iframe {
@@ -133,6 +131,7 @@ p {
 
 .navBar-list {
   display: flex; 
+ 
 
  
 }
@@ -141,6 +140,14 @@ p {
   font-size: .5em; 
   padding: 1em; 
   min-width: fit-content;
+}
+
+.navBar-link:hover{
+  text-decoration: underline; 
+}
+
+.navBar-link-email{
+color: var(--clr-neutral-200); 
 }
 
 /* end of navBar */
@@ -354,7 +361,7 @@ background: linear-gradient(3deg, rgba(31,173,159,1) 60%, rgba(254,208,73,1) 100
 
 .contactButton-link:hover{
   color: white; 
-  text-decoration: underline; 
+ font-size: 1em; 
 }
 
 /* end of ABOUT ME */
