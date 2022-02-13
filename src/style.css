@@ -18,6 +18,10 @@
   --ff-primary: "Montserrat", sans-serif;
   --ff-accent: "Voces", sans-serif;
 }
+/* background gradient */
+/* background: -webkit-linear-gradient(var(--clr-petrol-200) 60%, var(--clr-mustard-600));
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent; */
 
 body {
   background: var(--clr-neutral-800);
@@ -335,7 +339,12 @@ footer {
 .contactButton{
   display: block; 
   margin: 0 auto; 
-  
+  background-color: var(--clr-petrol-200); 
+  /* opacity: 50%;  */
+border-radius: 20px; 
+padding: 1em; 
+margin-bottom: 2em; 
 }
+
 
 /* end of ABOUT ME */
