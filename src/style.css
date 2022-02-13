@@ -123,8 +123,13 @@ p {
 
 /* navBar  */
 
+/* .navBar{
+
+} */
+
 .navBar-list {
   display: flex; 
+
  
 }
 
@@ -302,3 +307,35 @@ footer {
 .copyright {
   font-size: 0.5em;
 }
+
+
+/* ABOUT ME */
+
+.aboutMe-section{
+  display: block; 
+}
+
+.aboutAvatar{
+  max-width: 30%; 
+ display: block; 
+ margin: 0 auto; 
+ padding-top: 1em; 
+}
+
+.aboutText {
+  color: var(--clr-neutral-200); 
+  padding: 2.5em 4em; 
+  font-size: 1em; 
+  line-height: 2em; 
+  letter-spacing: .1em; 
+  font-weight: 100; 
+  text-align: left; 
+}
+
+.contactButton{
+  display: block; 
+  margin: 0 auto; 
+  
+}
+
+/* end of ABOUT ME */
