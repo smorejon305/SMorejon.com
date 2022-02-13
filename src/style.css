@@ -132,9 +132,6 @@ p {
 
 .navBar-list {
   display: flex; 
- 
-
- 
 }
 
 .navBar-item{
@@ -147,9 +144,6 @@ p {
   text-decoration: underline; 
 }
 
-.navBar-link-email{
-color: var(--clr-neutral-200); 
-}
 
 /* end of navBar */
 
