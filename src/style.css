@@ -223,6 +223,27 @@ background: -webkit-linear-gradient(var(--clr-petrol-200) 60%, var(--clr-mustard
   }
 }
 
+
+/* Hidden Text - landing page */
+.hiddenText{
+  text-align: center; 
+  margin-top: 1.5em; 
+}
+
+.hiddenText-link{
+  font-size: 1.2em; 
+  font-weight: 100; 
+  opacity: 0%; 
+}
+
+.hiddenText-link:hover{
+  opacity: 100%; 
+}
+
+/* end Hidden Text - landing page */
+
+
+
 .aboutMeText {
   color: var(--clr-neutral-200);
 }
@@ -381,5 +402,9 @@ background: linear-gradient(3deg, rgba(31,173,159,1) 60%, rgba(254,208,73,1) 100
   color: white; 
  font-size: 1em; 
 }
+
+/* .seePortfolio-link{
+  color: white; 
+} */
 
 /* end of ABOUT ME */
