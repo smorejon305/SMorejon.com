@@ -244,10 +244,6 @@ background: -webkit-linear-gradient(var(--clr-petrol-200) 60%, var(--clr-mustard
 
 
 
-.aboutMeText {
-  color: var(--clr-neutral-200);
-}
-
 .acrossLi {
   display: block;
   color: white;
@@ -356,8 +352,15 @@ footer {
 /* ABOUT ME */
 
 .aboutMe-section{
-  display: block; 
+  background-color: var(--clr-neutral-100); 
+padding-bottom: 5em; 
+display: block; 
 }
+
+
+
+
+
 
 .aboutAvatar{
   max-width: 60%; 
@@ -373,9 +376,9 @@ footer {
   }
 
 .aboutText {
-  color: var(--clr-neutral-200); 
+  color: var(--clr-neutral-900); 
   padding: 2.5em 4em; 
-  font-size: 1em; 
+  font-size: 1.5em; 
   line-height: 2em; 
   letter-spacing: .1em; 
   font-weight: 100; 
