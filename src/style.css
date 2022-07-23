@@ -34,7 +34,9 @@ body {
 }
 
 
-
+.space-element{
+ height: 5em; 
+}
 
 h1 {
   color: var(--clr-neutral-200);
