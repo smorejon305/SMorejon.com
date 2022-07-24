@@ -43,7 +43,7 @@ h1 {
   font-family: var(--ff-primary); 
   font-size: 5em;
   font-weight: 100;
-  margin-top: 4rem;
+  margin-top: 1rem; 
   margin-bottom: 2rem;
   text-align: center;
   text-decoration: none;
@@ -52,8 +52,21 @@ background: -webkit-linear-gradient(var(--clr-petrol-200) 60%, var(--clr-mustard
 -webkit-text-fill-color: transparent;
 }
 
+.headerGraphic-svg{
+  background-image: url(media/SMorejon-logo2021/SMorejon-logoWhite.svg); 
+  background-position: 50% 50%; 
+  background-repeat: no-repeat; 
+  background-size: contain; 
+  height: 60vh; 
+}
 
-
+.headerGraphic-svgSubPages{
+  background-image: url(media/SMorejon-logo2021/SMorejon-logoWhite.svg); 
+  background-position: 50% 50%; 
+  background-repeat: no-repeat; 
+  background-size: contain; 
+  height: 40vh; 
+}
 
 /* SKILLS SECTIOn */
 
@@ -211,6 +224,7 @@ background: -webkit-linear-gradient(var(--clr-petrol-200) 60%, var(--clr-mustard
   color: var(--clr-petrol-200);
   font-size: 2em;
 }
+
 
 @media (min-width: 600px) {
   .headerGraphic {
@@ -395,14 +409,14 @@ background: rgb(31,173,159);
 background: linear-gradient(3deg, rgba(31,173,159,1) 60%, rgba(231,231,222,1) 100%);
 }
 
-.contactButton:hover{
+/* .contactButton:hover{
   background: rgb(31,173,159);
 background: linear-gradient(3deg, rgba(31,173,159,1) 60%, rgba(254,208,73,1) 100%);
-}
+} */
 
 .contactButton-link:hover{
   color: white; 
- font-size: 1em; 
+ font-size: 1.5em; 
 }
 
 /* .seePortfolio-link{
