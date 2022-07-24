@@ -225,6 +225,10 @@ background: -webkit-linear-gradient(var(--clr-petrol-200) 60%, var(--clr-mustard
   font-size: 2em;
 }
 
+.whiteBackground{
+  background-color: var(--clr-neutral-200); 
+}
+
 
 @media (min-width: 600px) {
   .headerGraphic {
