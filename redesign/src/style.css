@@ -1,0 +1,29 @@
+:root {
+  --clr-neutral-100: #F8F8F8;
+  --clr-neutral-900: #212529;
+
+  --clr-petrol-200: #208089;
+  --clr-petrol-600: #134A4F;
+  --clr-petrol-800: #0C3538;
+
+
+
+  --ff-primary: 'Raleway', sans-serif;
+
+  --ff-accent: 'Bitter', serif;
+
+}
+/* background gradient */
+/* background: -webkit-linear-gradient(var(--clr-petrol-200) 60%, var(--clr-mustard-600));
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent; */
+
+body {
+  background: var(--clr-neutral-800);
+  height: 100%;
+  margin: 0;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  font-family: var(--ff-primary); 
+
+}
