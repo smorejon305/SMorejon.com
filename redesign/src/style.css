@@ -9,7 +9,6 @@
 
 
   --ff-primary: 'Raleway', sans-serif;
-
   --ff-accent: 'Bitter', serif;
 
 }
@@ -19,11 +18,55 @@
 -webkit-text-fill-color: transparent; */
 
 body {
-  background: var(--clr-neutral-800);
+  background: var(--clr-neutral-100); 
+  font-size: 16px; 
+  width: 100%; 
   height: 100%;
   margin: 0;
   background-repeat: no-repeat;
   background-attachment: fixed;
   font-family: var(--ff-primary); 
 
+}
+
+/* navBar */
+
+.navBar{
+  color: --clr-petrol-800; 
+  background-color: --clr-petrol-200; 
+  font-family: --ff-accent; 
+}
+
+.navBar-list {
+  display: flex; 
+
+}
+
+.navBar-item{
+  padding: 1em; 
+  min-width: fit-content;
+margin: 0 auto; 
+justify-content: space-around; 
+}
+
+.navBar-link{
+  font-size: 2em; 
+
+}
+/* end of navBar */
+
+
+.heroImage-section{
+  background: radial-gradient(50% 50% at 50% 50%, #208089 0%, #134A4F 100%);
+overflow-x: hidden; 
+width: 100vw; 
+height: 100vh; 
+}
+
+.heroImage-logo{
+display: block; 
+margin: 0 auto; 
+height: 50%; 
+width: 50%; 
+  justify-content: center; 
 }
