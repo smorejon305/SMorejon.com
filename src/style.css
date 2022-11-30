@@ -52,8 +52,16 @@ background: -webkit-linear-gradient(var(--clr-petrol-200) 60%, var(--clr-mustard
 -webkit-text-fill-color: transparent;
 }
 
+.headerSubTitle{
+  color: var(--clr-neutral-200); 
+text-align: center; 
+font-weight: 200; 
+font-family: var(--ff-primary); 
+
+}
+
 .headerGraphic-svg{
-  background-image: url(media/SMorejon-logo2021/SMorejon-logoWhite.svg); 
+  background-image: url(); 
   background-position: 50% 50%; 
   background-repeat: no-repeat; 
   background-size: contain; 
