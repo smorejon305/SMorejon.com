@@ -61,7 +61,7 @@ font-family: var(--ff-primary);
 }
 
 .headerGraphic-svg{
-  background-image: url(); 
+  background-image: url(media/SMo\ logo\ 2022/MOREJON_SignatureLogoPNG-02.png); 
   background-position: 50% 50%; 
   background-repeat: no-repeat; 
   background-size: contain; 
