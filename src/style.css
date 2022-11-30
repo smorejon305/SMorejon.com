@@ -69,7 +69,7 @@ font-family: var(--ff-primary);
 }
 
 .headerGraphic-svgSubPages{
-  background-image: url(media/SMo\ logo\ 2022/MOREJON_SignatureLogoPNG-02.png); 
+  background-image: url(media/SMorejon-logo2021/SMorejon-logoWhite.svg); 
   background-position: 50% 50%; 
   background-repeat: no-repeat; 
   background-size: contain; 
@@ -349,14 +349,6 @@ background: -webkit-linear-gradient(var(--clr-petrol-200) 60%, var(--clr-mustard
 footer {
   margin-top: 100px;
   text-align: center;
-}
-
-.footerLogo{
-  background-image: url(media/SMo\ logo\ 2022/MOREJON_SignatureLogoPNG-02.png); 
-  background-position: 50% 50%; 
-  background-repeat: no-repeat; 
-  background-size: contain; 
-  height: 10vh; 
 }
 
 .footerLink {
